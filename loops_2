@@ -1,0 +1,18 @@
+#2nd
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+
+dictionary = dict(zip(keys, values))
+print(dictionary)
+
+
+sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
+}
+keys_remove = ["name", "salary"]
+for key in keys_remove:
+    del sample_dict[key]
+print(sample_dict)
