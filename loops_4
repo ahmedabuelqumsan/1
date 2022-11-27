@@ -1,0 +1,17 @@
+#4th
+tuple1 = (10, 20, 30, 40, 50)
+tuple1 = tuple(reversed(tuple1))
+print(tuple1)
+
+
+tuple2 = ("Orange", [10, 20, 30], (5, 15, 25))
+z = tuple2[1]
+print(z[1])
+
+
+aa,bb,cc,dd= tuple3 = (10, 20, 30, 40)
+print(tuple3)
+print(aa)
+print(dd)
+print(cc)
+print(dd)
