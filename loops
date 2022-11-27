@@ -1,0 +1,19 @@
+#1st
+numb = [12, 75, 150, 180, 145, 525, 50]
+for x in numb:
+   m = x%5
+   if m == 0:
+       if x>150:
+         continue
+       print(x)
+print("done")
+
+k = 76542
+reversed_k = 0
+
+while k != 0:
+    digit = k % 10
+    reversed_k = reversed_k * 10 + digit
+    k //= 10
+
+print(str(reversed_k))
